@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jkbyggab.se/sitemap.xml

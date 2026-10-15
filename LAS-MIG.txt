@@ -1,0 +1,43 @@
+JK BYGG – FÄRDIGA FILER FÖR GITHUB ELLER WEBBHOTELL
+
+Ladda upp hela innehållet i mappen dist, inte bara index.html.
+Behåll mappnamnen. Bilder, typsnitt, CSS och JavaScript ligger lokalt i paketet.
+Inget bygge, inga paket och ingen databas behövs på webbhotellet.
+
+GITHUB PAGES
+Lägg innehållet direkt i arkivets rot. Välj rätt gren och / (root) under
+Settings > Pages. Relativa länkar fungerar även på en GitHub-projektadress.
+
+WEBBHOTELL
+Ta först en säkerhetskopia av nuvarande webbplats. Ladda upp dist-innehållet
+till webbplatsens dokumentrot. Kontrollera att HTTPS är aktiverat.
+Gör inte detta över en annan installation utan att först säkerhetskopiera.
+
+SEO
+Sidorna innehåller läsbar HTML, unika titlar och beskrivningar, en huvudrubrik,
+bildbeskrivningar, interna länkar, strukturerad företags-/tjänstedata och sitemap.
+Canonical, delningsbilder och sitemap pekar på https://jkbyggab.se/.
+När denna version blir den riktiga sidan: kontrollera rätt huvuddomän, skicka
+sitemap.xml i Google Search Console och kontrollera omdirigeringar från gamla
+adresser. /referenser/ och /kontakta-oss/ finns kvar. Om domänen ändras behöver
+canonical, OG, JSON-LD, robots och sitemap ändras samtidigt.
+En GitHub-förhandsvisning bör inte indexeras parallellt med kundens ordinarie
+webbplats. Använd noindex för en separat offentlig förhandsvisning.
+SEO-arbetet förbättrar förutsättningarna men garanterar inte någon placering.
+
+KONTAKT
+Ringknappar: +46 708 46 87 48. Mejl: j.kallenbygg@gmail.com.
+Det finns inget formulär som skickar i bakgrunden. Mejlknappen öppnar
+besökarens eget mejlprogram. Inga analysverktyg eller externa typsnitt laddas.
+
+INNEHÅLL OCH BILDER
+Företagsuppgifter och foton hämtades från jkbyggab.se den 15 oktober 2026.
+Åtta referensbilder återanvänds i originalens proportioner. Herobilden kommer
+från företagets tidigare hemsida. Ingen person på den tillskrivs en identitet.
+Kontrollera att kunden får använda bilderna vid publicering. Källor och
+typsnittslicens finns i assets. Inga obekräftade recensioner eller betyg har lagts in.
+
+REDIGERING
+Du kan redigera de färdiga HTML-filerna direkt. Hela arbetsprojektet innehåller
+även content.mjs och build.mjs för en gemensam uppdatering av samtliga sidor.
+Den vanliga ZIP-filen innehåller endast det som behövs för publicering.
